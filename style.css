@@ -5,7 +5,7 @@
 :root{
     --main-color:rgba(41, 128, 185,1.0);
     --main-color-light:rgba(41, 128, 185,0.2);
-    --accent-color:rgba(243, 156, 18,1.0);
+    --accent-color:#fab1a0;
     --accent-color-light:rgba(243, 156, 18,0.5);
 }
 
@@ -83,6 +83,7 @@ body{
     padding:1rem;
 }
 .gorev-btn{
+    background: transparent;
     background-color: var(--accent-color);
     outline: none;
     border:none;
@@ -91,8 +92,11 @@ body{
     color:white;
 }
 .gorev-btn-sil{
-    background-color: rgb(228, 54, 54);
+    
+    background-color: #a29bfe;
 }
+
+
 
 .gorev-tamamlandi{
     text-decoration: line-through;
